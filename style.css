@@ -35,6 +35,12 @@ img {
 input {
   padding: 6px 3px;
   border: 1px solid #e5e7eb;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid rgb(13, 37, 172);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .main-content p {

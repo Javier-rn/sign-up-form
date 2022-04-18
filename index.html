@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/nikola-johnny-mirkovic-qlqPeDMV6Xc-unsplash.jpg" alt="" />
+      <div class="main-content">
+        <p class="header-para">
+          Do you want to spend a weekend in the woods of Sweden? Register now and enjoy
+          the quiet sounds of the forest.
+        </p>
+        <form action="">
+          <h2>Register here</h2>
+          <div class="horizontal-inputs">
+            <div class="input first-name">
+              <label for="first-name">First name</label>
+              <input id="first-name" name="first-name" type="text" />
+            </div>
+            <div class="input last-name">
+              <label for="last-name">Last name</label>
+              <input id="last-name" name="last-name" type="text" />
+            </div>
+          </div>
+          <div class="horizontal-inputs">
+            <div class="input email">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" />
+            </div>
+            <div class="input phone">
+              <label for="phone">Phone number</label>
+              <input id="Phone" name="Phone" type="text" />
+            </div>
+          </div>
+          <div class="horizontal-inputs">
+            <div class="input password">
+              <label for="password">Password</label>
+              <input id="password" name="password" type="password" />
+            </div>
+            <div class="input password-confirm">
+              <label for="password">Confirm password</label>
+              <input id="password" name="password" type="password" />
+            </div>
+          </div>
+          <button>Create Account</button>
+        </form>
+
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -67,7 +67,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid rgb(13, 37, 172);
+  outline: 1px solid rgb(58, 71, 101);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -124,4 +124,5 @@ button {
   color: white;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
